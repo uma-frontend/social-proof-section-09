@@ -1,0 +1,47 @@
+/*Font face*/
+@font-face {
+   font-family: "League Spartan";
+   src: url("../fonts/LeagueSpartan-Bold.woff2") format("woff2"),
+       url("../fonts/LeagueSpartan-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "League Spartan";
+   src: url("../fonts/LeagueSpartan-Regular.woff2") format("woff2"),
+       url("../fonts/LeagueSpartan-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "League Spartan";
+   src: url("../fonts/LeagueSpartan-Medium.woff2") format("woff2"),
+       url("../fonts/LeagueSpartan-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+/*Global Syles*/
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Body*/
+body{
+   font-family: "League Spartan", sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 1.5;
+   background-color: #fff;
+   color: #000;
+   margin: 0;
+}
